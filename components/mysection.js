@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 
-
 const mysection = () => {
   return (
     <div className="flex items-center justify-center h-screen mt-16">
@@ -21,12 +20,30 @@ const mysection = () => {
           <p className="text-center font-semibold text-gray-600">Hello, I'm</p>
         </div>
         <div className="w-1/2">
-          <p className="text-4xl font-bold text-center">Anas Sohail</p>
+          <motion.p
+            transition={{
+              duration: 0.5,
+              delay: 0.5,
+              ease: [0.5, 0.71, 1, 1.5],
+            }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="text-4xl font-bold text-center"
+          >
+            Anas Sohail
+          </motion.p>
         </div>
         <div className="w-1/2 my-4">
-          <p className="text-center text-gray-600 text-xl font-semibold">
+          <motion.p
+            initial={{ opacity: 0, x: -60 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -60 }}
+            className="text-center text-gray-600 text-xl font-semibold"
+            transition={{ delay: 0.2 }} 
+          >
             MERN Stack Developer
-          </p>
+          </motion.p>
         </div>
         <div className="flex justify-evenly w-3/6">
           <button className="w-1/3 p-2 border-2 border-black rounded-xl text-xs">
