@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
+
 
 const mysection = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen mt-16">
       <div className="w-1/2 h-96">
         <Image
           className="rounded-full float-right"

@@ -4,7 +4,7 @@ import { MdCastForEducation } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center">
+    <div className="w-full h-screen flex flex-col items-center justify-center" id="aboutSection">
       <div className="w-1/2 h-16">
         <p className="text-center mt-4 font-semibold text-gray-600">
           Get to know more
