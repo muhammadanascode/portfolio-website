@@ -11,25 +11,25 @@ const About = () => {
         </p>
         <p className="text-center font-semibold text-4xl">About Me</p>
       </div>
-      <div className="flex justify-evenly w-full h-48 mt-12">
-        <div className="w-1/4 p-4 border-2 border-gray-700 rounded-xl text-center">
+      <div className="lg:flex lg:justify-evenly w-full h-48 mt-12">
+        <div className="w-72 m-auto lg:m-0 lg:w-1/4 p-4 border-2 border-gray-700 rounded-xl text-center">
           <p className="flex items-center justify-center">
             <GrCertificate className="text-4xl" />
           </p>
-          <p className="font-bold mt-4">Experience</p>
+          <p className="font-bold">Experience</p>
           <p className="text-gray-700">1+ years</p>
           <p className="text-gray-700">Frontend Development</p>
         </div>
-        <div className="w-1/4 p-6 border-2 border-gray-700 rounded-xl text-center">
+        <div className="w-72 m-auto mt-4 lg:m-0 lg:w-1/4 p-6 border-2 border-gray-700 rounded-xl text-center">
           <p className="flex items-center justify-center">
             <MdCastForEducation className="text-4xl" />
           </p>
-          <p className="font-bold mt-4">Education</p>
+          <p className="font-bold">Education</p>
           <p className="text-gray-700">Fsc Pre-Engineering</p>
           <p className="text-gray-700">Bsc. UnderGraduate</p>
         </div>
       </div>
-      <div className="w-1/2 h-54 mt-12">
+      <div className="w-96 m-44 lg:w-1/2 h-54 lg:mt-12">
         <p className="text-justify text-gray-700 font-semibold">
           I am currently in my second semester, pursuing a degree in computer
           science from the University of Karachi. My primary goal is to leverage
