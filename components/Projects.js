@@ -3,14 +3,14 @@ import Card from "./Card";
 
 const Projects = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center" id="project">
+    <div className="w-full lg:h-screen flex flex-col items-center justify-center mt-40 lg:mt-0" id="project">
       <div className="w-1/2 h-16">
         <p className="text-center mt-4 font-semibold text-gray-600">
           Browse my recent
         </p>
         <p className="text-center font-semibold text-4xl">Projects</p>
       </div>
-      <div className="flex w-full justify-evenly h-54 m-auto p-4">
+      <div className="lg:flex w-full justify-evenly h-54 m-auto mt-8 p-4">
         <Card
           img={"/blog.jpeg"}
           title={"Blogging App"}

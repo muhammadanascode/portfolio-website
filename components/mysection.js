@@ -47,13 +47,13 @@ const mysection = () => {
         </div>
         <div className="w-full  lg:m-0 lg:flex lg:justify-evenly lg:w-3/6">
           <button className="w-full my-8 lg:w-1/3  p-2 border-2 border-black rounded-xl text-xs">
-            Download CV
+           <a href="/resume.pdf" download={'resume.pdf'}>Download CV</a> 
           </button>
-          <button className="w-full my-8 lg:w-1/3 p-2 bg-black text-white rounded-xl text-xs">
+          <button className="w-full my-2 lg:w-1/3 lg:my-8 p-2 bg-black text-white rounded-xl text-xs">
             <Link href={"https://www.facebook.com/ANASCX/"}>view facebook</Link>
           </button>
         </div>
-        <div className="flex justify-center lg:w-1/2 my-8 lg:my-4">
+        <div className="flex justify-center lg:w-1/2 my-4 lg:my-4">
           <Link href={"https://github.com/muhammadanascode"}>
             <Image
               className="rounded-full mx-1"

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Card = ({ img, title, description, link }) => {
   return (
-    <div className="bg-white shadow-xl ring-[#038cfc] rounded-lg overflow-hidden">
+    <div className="bg-white shadow-xl my-6 ring-[#038cfc] rounded-lg overflow-hidden">
       <Image
       className="w-96 h-64"
         src={img}

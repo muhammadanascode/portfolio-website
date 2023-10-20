@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className="w-full h-screen flex flex-col items-center mt-12" id="contact">
-      <div className="w-1/2 h-16">
+      <div className="lg:w-1/2 h-16">
         <p className="text-center mt-4 font-semibold text-gray-600">
           Get in touch
         </p>
@@ -25,7 +25,7 @@ const Contact = () => {
             a call away, eager to help and provide the support you deserve.
           </p>
         </div>
-        <div className="w-1/2 m-auto mt-4 h-32 border-2 border-black rounded-3xl">
+        <div className=" w-3/4 lg:w-1/2 m-auto mt-4 h-32 border-2 border-black rounded-3xl">
           <div className="flex justify-start mt-4 mx-4">
             <p>
               <MdEmail className="text-2xl" />
