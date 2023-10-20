@@ -18,7 +18,7 @@ const Navbar = () => {
             Anas Sohail
           </span>
         </p>
-        <ul className="flex mx-8">
+        <ul className="flex mx-1 md:mx-2 lg:mx-8">
           <li
             onClick={() => scroll("aboutSection")}
             className="mx-2 text-md lg:text-2xl hover:text-gray-400 cursor-pointer"
@@ -29,7 +29,7 @@ const Navbar = () => {
             className="mx-2 text-md lg:text-2xl hover:text-gray-400 cursor-pointer"
             onClick={() => scroll("experience")}
           >
-            Experience
+            Expertise
           </li>
           <li
             className="mx-2 text-md lg:text-2xl hover:text-gray-400 cursor-pointer"

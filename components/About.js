@@ -4,7 +4,7 @@ import { MdCastForEducation } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center" id="aboutSection">
+    <div className="w-full lg:h-screen flex flex-col items-center justify-center" id="aboutSection">
       <div className="w-1/2 h-16">
         <p className="text-center mt-4 font-semibold text-gray-600">
           Get to know more
@@ -29,7 +29,7 @@ const About = () => {
           <p className="text-gray-700">Bsc. UnderGraduate</p>
         </div>
       </div>
-      <div className="w-96 m-44 lg:w-1/2 h-54 lg:mt-12">
+      <div className="w-80 m-auto mt-44 lg:w-1/2 h-54 lg:mt-12">
         <p className="text-justify text-gray-700 font-semibold">
           I am currently in my second semester, pursuing a degree in computer
           science from the University of Karachi. My primary goal is to leverage

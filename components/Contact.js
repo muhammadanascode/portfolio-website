@@ -12,7 +12,7 @@ const Contact = () => {
           Get in touch
         </p>
         <p className="text-center font-semibold text-4xl">Contact Me</p>
-        <div className="w-full m-auto mt-8 p-4">
+        <div className="w-80 m-auto mt-8 p-4">
           <p className="text-gray-700 text-justify">
             We value your feedback and are here to assist you in any way we can.
             If you have any queries or require further information about our
@@ -25,7 +25,7 @@ const Contact = () => {
             a call away, eager to help and provide the support you deserve.
           </p>
         </div>
-        <div className=" w-3/4 lg:w-1/2 m-auto mt-4 h-32 border-2 border-black rounded-3xl">
+        <div className=" w-full lg:w-1/2 m-auto mt-4 h-32 border-2 border-black rounded-3xl">
           <div className="flex justify-start mt-4 mx-4">
             <p>
               <MdEmail className="text-2xl" />
