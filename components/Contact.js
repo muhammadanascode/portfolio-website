@@ -16,12 +16,12 @@ const Contact = () => {
           <p className="text-gray-700 text-justify">
             We value your feedback and are here to assist you in any way we can.
             If you have any queries or require further information about our
-            products or services, please don't hesitate to reach out to us. Our
+            products or services, please don&rsquo;t hesitate to reach out to us. Our
             dedicated support team is ready to provide answers to your questions
             and address any concerns you may have. Your satisfaction is our top
             priority, and we are committed to ensuring that your experience with
             us is smooth and enjoyable. So, if you ever find yourself in need of
-            assistance, please feel free to contact us. We're just a message or
+            assistance, please feel free to contact us. We&rsquo;re just a message or
             a call away, eager to help and provide the support you deserve.
           </p>
         </div>
@@ -55,7 +55,7 @@ const Contact = () => {
         </div>
         <div className="className=w-1/2 m-auto mt-12 h-24 text-center">
           <p className="text-sm text-gray-700">
-            Copyright&copy;2023 Anas Sohail. All right reserved
+            Copyright&copy;2023 Anas Sohail. All rights reserved
           </p>
         </div>
       </div>
