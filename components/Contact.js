@@ -12,7 +12,7 @@ const Contact = () => {
           Get in touch
         </p>
         <p className="text-center font-semibold text-4xl">Contact Me</p>
-        <div className="w-80 m-auto mt-8 p-4">
+        <div className="w-80 m-auto lg:w-full mt-8 p-4">
           <p className="text-gray-700 text-justify">
             We value your feedback and are here to assist you in any way we can.
             If you have any queries or require further information about our
