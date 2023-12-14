@@ -39,7 +39,7 @@ const Contact = () => {
               <MdEmail className="text-2xl" />
             </p>
             <p className="text-gray-700">
-              <Link href={"https://www.linkedin.com/in/anas-sohail-038026262/"}>
+              <Link href={"https://www.linkedin.com/in/anas-sohail-038026262"}>
                 LinkedIn
               </Link>
             </p>

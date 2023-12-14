@@ -50,7 +50,7 @@ const mysection = () => {
             <a href="/resume.pdf" download={'resume.pdf'}>Download CV</a>
           </button>
           <button className="w-full my-2 lg:w-1/3 lg:my-8 p-2 bg-black text-white rounded-xl text-xs">
-            <Link href={"https://www.facebook.com/ANASCX/"}>View Facebook</Link>
+            <Link href={"https://www.facebook.com/ANASCX"}>View Facebook</Link>
           </button>
         </div>
         <div className="flex justify-center lg:w-1/2 my-4 lg:my-4">
@@ -63,7 +63,7 @@ const mysection = () => {
               alt="img"
             />
           </Link>
-          <Link href={"https://www.linkedin.com/in/anas-sohail-038026262/"}>
+          <Link href={"https://www.linkedin.com/in/anas-sohail-038026262"}>
             <Image
               className="rounded-full mx-1"
               src={"/linkedin.png"}
